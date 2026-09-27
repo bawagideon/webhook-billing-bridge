@@ -1,0 +1,10 @@
+{
+  "name": "webhook-billing-bridge",
+  "version": "1.0.0",
+  "description": "Stripe-to-Discord/Slack Notification & Reconciliation Bridge",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --import tsx/esm src/index.ts",
+    "test": "node --import tsx/esm test/bridge.test.ts"
+  }
+}
